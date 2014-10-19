@@ -26,7 +26,7 @@ def linreg(X, Y):
     RR = 1 - residual/meanerror
     ss = residual / (N-2)
     Var_a, Var_b = ss * N / det, ss * Sxx / det
-    #print "y=ax+b"
+    print "y=ax+b"
     #print "N= %d" % N
     #print "a= %g \\pm t_{%d;\\alpha/2} %g" % (a, N-2, sqrt(Var_a))
     #print "b= %g \\pm t_{%d;\\alpha/2} %g" % (b, N-2, sqrt(Var_b))
